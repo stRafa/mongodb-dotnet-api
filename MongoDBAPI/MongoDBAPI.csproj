@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+    <PackageReference Include="NAudio" Version="2.2.0" />
+    <PackageReference Include="NAudio.Lame" Version="2.1.0" />
+    <PackageReference Include="YoutubeExplode" Version="6.3.2" />
   </ItemGroup>
 
 </Project>

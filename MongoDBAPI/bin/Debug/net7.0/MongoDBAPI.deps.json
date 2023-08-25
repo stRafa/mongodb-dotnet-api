@@ -8,10 +8,24 @@
     ".NETCoreApp,Version=v7.0": {
       "MongoDBAPI/1.0.0": {
         "dependencies": {
-          "MongoDB.Driver": "2.21.0"
+          "MongoDB.Driver": "2.21.0",
+          "NAudio": "2.2.0",
+          "NAudio.Lame": "2.1.0",
+          "YoutubeExplode": "6.3.2"
         },
         "runtime": {
           "MongoDBAPI.dll": {}
+        }
+      },
+      "AngleSharp/1.0.4": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/AngleSharp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
         }
       },
       "AWSSDK.Core/3.7.100.14": {
@@ -122,6 +136,86 @@
           }
         }
       },
+      "NAudio/2.2.0": {
+        "dependencies": {
+          "NAudio.Asio": "2.2.0",
+          "NAudio.Core": "2.2.0",
+          "NAudio.Midi": "2.2.0",
+          "NAudio.Wasapi": "22.0.0",
+          "NAudio.WinMM": "2.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/NAudio.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "NAudio.Asio/2.2.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0",
+          "NAudio.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "NAudio.Core/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "NAudio.Lame/2.1.0": {
+        "dependencies": {
+          "NAudio.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Lame.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "NAudio.Midi/2.2.0": {
+        "dependencies": {
+          "NAudio.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/22.0.0": {
+        "dependencies": {
+          "NAudio.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "assemblyVersion": "22.0.0.0",
+            "fileVersion": "22.0.0.0"
+          }
+        }
+      },
+      "NAudio.WinMM/2.2.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0",
+          "NAudio.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
       "SharpCompress/0.30.1": {
         "runtime": {
           "lib/net5.0/SharpCompress.dll": {
@@ -148,6 +242,18 @@
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
+      "System.Text.Encoding.CodePages/7.0.0": {},
+      "YoutubeExplode/6.3.2": {
+        "dependencies": {
+          "AngleSharp": "1.0.4"
+        },
+        "runtime": {
+          "lib/net5.0/YoutubeExplode.dll": {
+            "assemblyVersion": "6.3.2.0",
+            "fileVersion": "6.3.2.0"
+          }
+        }
+      },
       "ZstdSharp.Port/0.6.2": {
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {
@@ -163,6 +269,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AngleSharp/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G8R4C2MEDFQvjUbYz1QIcGfibjsTJnzP0aWy8iQgWWk7eKacYydCNGD3JMhVL0Q5pZQ9RYlqpKNESEU5NpqsRw==",
+      "path": "anglesharp/1.0.4",
+      "hashPath": "anglesharp.1.0.4.nupkg.sha512"
     },
     "AWSSDK.Core/3.7.100.14": {
       "type": "package",
@@ -234,6 +347,55 @@
       "path": "mongodb.libmongocrypt/1.8.0",
       "hashPath": "mongodb.libmongocrypt.1.8.0.nupkg.sha512"
     },
+    "NAudio/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1ZImYczIftCJFV9dLfB5seeo0lSem3wBkbx134XicCRNwPf3JFGNshszCZyN7AW+Q90lzQA0SRAlSepaFNgC4A==",
+      "path": "naudio/2.2.0",
+      "hashPath": "naudio.2.2.0.nupkg.sha512"
+    },
+    "NAudio.Asio/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mv2Nv5NAORFpGg8Aehu5biAiT4izj+RvctoTEKWqPgt0FQJXx7kd03vyQHIOHYmvSp5q26lAkBCzSQuRG/8ldw==",
+      "path": "naudio.asio/2.2.0",
+      "hashPath": "naudio.asio.2.2.0.nupkg.sha512"
+    },
+    "NAudio.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6jOWa+ZB04ByuWSSQ1cQnKv6zujX0ZCsSpd/UrCqHyHbUGuVP64X76QTwphudGUJRUBAIsZ9HVMqPaXP6qlpPw==",
+      "path": "naudio.core/2.2.0",
+      "hashPath": "naudio.core.2.2.0.nupkg.sha512"
+    },
+    "NAudio.Lame/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y+FtVgvjT+bNpBFqDiAKcFGelix1UavpX66vLymzWalXOGvY+MsoLNKL6aNGA0INjvBxeI3qd1LlD+bg7Nv2Ww==",
+      "path": "naudio.lame/2.1.0",
+      "hashPath": "naudio.lame.2.1.0.nupkg.sha512"
+    },
+    "NAudio.Midi/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+SO7cw3mrH2k5TQxZdt6FvmW7OnwvzFwPbjXGpD2lqnuTfN3Xr13nwqfX9DDcmT7/P+qJy+mqrAZwaN0EuDbrA==",
+      "path": "naudio.midi/2.2.0",
+      "hashPath": "naudio.midi.2.2.0.nupkg.sha512"
+    },
+    "NAudio.Wasapi/22.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wDPj5OVl54TGnRbdPJQa6VuAShe3rYDgCLFn4jrqHzpGEQ54FCzmjDsS/KLbb0M6mln83K+kQ1vQzY7SQGDEEg==",
+      "path": "naudio.wasapi/22.0.0",
+      "hashPath": "naudio.wasapi.22.0.0.nupkg.sha512"
+    },
+    "NAudio.WinMM/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MnszU7s34+OVParz72w4dNhYFjjk3Cu/nI9mqHOuS2nvxDT9XvqmY64mSwDrxY3CQReUWKHj3sBkY//VCMgfGg==",
+      "path": "naudio.winmm/2.2.0",
+      "hashPath": "naudio.winmm.2.2.0.nupkg.sha512"
+    },
     "SharpCompress/0.30.1": {
       "type": "package",
       "serviceable": true,
@@ -282,6 +444,20 @@
       "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "hashPath": "system.text.encoding.codepages.7.0.0.nupkg.sha512"
+    },
+    "YoutubeExplode/6.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HV2e4mls8vmOA6tQAkzNFc2vEqCwVxlfMB2deMGTnfSgatHwXXCXXMah++H2RSSDDljUCqyR8z4QJVVpMRKG8w==",
+      "path": "youtubeexplode/6.3.2",
+      "hashPath": "youtubeexplode.6.3.2.nupkg.sha512"
     },
     "ZstdSharp.Port/0.6.2": {
       "type": "package",

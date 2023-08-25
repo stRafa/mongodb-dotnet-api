@@ -9,6 +9,7 @@ namespace MongoDBAPI.Configuration
             services.AddSingleton<BooksService>();
             services.AddScoped<UsersService>();
             services.AddHttpClient<UsersService>();
+            services.AddScoped<YtConvertService>();
         }
     }
 }

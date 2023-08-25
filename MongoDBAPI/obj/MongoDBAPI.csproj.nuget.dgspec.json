@@ -48,6 +48,18 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.21.0, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NAudio.Lame": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[6.3.2, )"
             }
           },
           "imports": [

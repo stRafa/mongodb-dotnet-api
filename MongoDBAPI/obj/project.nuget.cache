@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nJvsf5Utrb7QgBCiU1PAZfNOhCTUmmb35HuQkIql2O86+iKdc63f0XKKILZtMmsAmH9SZZ3GeVX7S1hXYkOfZg==",
+  "dgSpecHash": "Bpfx2Me6sEF4Wg/SaAfKsTID3C6NIAHHdzAL2o5THPyDOcbqMw5KITyBxBjAUPbF/n9ZO6TM+lpPYhoDZhsxcA==",
   "success": true,
   "projectFilePath": "C:\\dev\\aspnetcore\\MongoDBAPI\\MongoDBAPI\\MongoDBAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
@@ -14,6 +15,13 @@
     "C:\\Users\\VCP19001481\\.nuget\\packages\\mongodb.driver\\2.21.0\\mongodb.driver.2.21.0.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\mongodb.driver.core\\2.21.0\\mongodb.driver.core.2.21.0.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\naudio\\2.2.0\\naudio.2.2.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\naudio.asio\\2.2.0\\naudio.asio.2.2.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\naudio.core\\2.2.0\\naudio.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\naudio.lame\\2.1.0\\naudio.lame.2.1.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\naudio.midi\\2.2.0\\naudio.midi.2.2.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\naudio.wasapi\\22.0.0\\naudio.wasapi.22.0.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\naudio.winmm\\2.2.0\\naudio.winmm.2.2.0.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -21,6 +29,8 @@
     "C:\\Users\\VCP19001481\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
+    "C:\\Users\\VCP19001481\\.nuget\\packages\\youtubeexplode\\6.3.2\\youtubeexplode.6.3.2.nupkg.sha512",
     "C:\\Users\\VCP19001481\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
   "logs": []

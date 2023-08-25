@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AngleSharp/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -185,6 +201,124 @@
           }
         }
       },
+      "NAudio/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Asio": "2.2.0",
+          "NAudio.Core": "2.2.0",
+          "NAudio.Midi": "2.2.0",
+          "NAudio.Wasapi": "22.0.0",
+          "NAudio.WinMM": "2.2.0"
+        },
+        "compile": {
+          "lib/net6.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Asio/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Lame/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Lame.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Lame.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "build/NAudio.Lame.targets": {}
+        }
+      },
+      "NAudio.Midi/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Wasapi/22.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.WinMM/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SharpCompress/0.30.1": {
         "type": "package",
         "compile": {
@@ -284,6 +418,44 @@
           }
         }
       },
+      "System.Text.Encoding.CodePages/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "YoutubeExplode/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "AngleSharp": "1.0.4"
+        },
+        "compile": {
+          "lib/net5.0/YoutubeExplode.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/YoutubeExplode.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "ZstdSharp.Port/0.6.2": {
         "type": "package",
         "compile": {
@@ -296,6 +468,29 @@
     }
   },
   "libraries": {
+    "AngleSharp/1.0.4": {
+      "sha512": "G8R4C2MEDFQvjUbYz1QIcGfibjsTJnzP0aWy8iQgWWk7eKacYydCNGD3JMhVL0Q5pZQ9RYlqpKNESEU5NpqsRw==",
+      "type": "package",
+      "path": "anglesharp/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "anglesharp.1.0.4.nupkg.sha512",
+        "anglesharp.nuspec",
+        "lib/net461/AngleSharp.dll",
+        "lib/net461/AngleSharp.xml",
+        "lib/net472/AngleSharp.dll",
+        "lib/net472/AngleSharp.xml",
+        "lib/net6.0/AngleSharp.dll",
+        "lib/net6.0/AngleSharp.xml",
+        "lib/net7.0/AngleSharp.dll",
+        "lib/net7.0/AngleSharp.xml",
+        "lib/netstandard2.0/AngleSharp.dll",
+        "lib/netstandard2.0/AngleSharp.xml",
+        "logo.png"
+      ]
+    },
     "AWSSDK.Core/3.7.100.14": {
       "sha512": "gnEgxBlk4PFEfdPE8Lkf4+D16MZFYSaW7/o6Wwe5e035QWUkTJX0Dn4LfTCdV5QSEL/fOFxu+yCAm55eIIBgog==",
       "type": "package",
@@ -536,6 +731,117 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
+    "NAudio/2.2.0": {
+      "sha512": "1ZImYczIftCJFV9dLfB5seeo0lSem3wBkbx134XicCRNwPf3JFGNshszCZyN7AW+Q90lzQA0SRAlSepaFNgC4A==",
+      "type": "package",
+      "path": "naudio/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/NAudio.dll",
+        "lib/net472/NAudio.xml",
+        "lib/net6.0-windows7.0/NAudio.dll",
+        "lib/net6.0-windows7.0/NAudio.xml",
+        "lib/net6.0/NAudio.dll",
+        "lib/net6.0/NAudio.xml",
+        "lib/netcoreapp3.1/NAudio.dll",
+        "lib/netcoreapp3.1/NAudio.xml",
+        "license.txt",
+        "naudio-icon.png",
+        "naudio.2.2.0.nupkg.sha512",
+        "naudio.nuspec"
+      ]
+    },
+    "NAudio.Asio/2.2.0": {
+      "sha512": "mv2Nv5NAORFpGg8Aehu5biAiT4izj+RvctoTEKWqPgt0FQJXx7kd03vyQHIOHYmvSp5q26lAkBCzSQuRG/8ldw==",
+      "type": "package",
+      "path": "naudio.asio/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Asio.dll",
+        "lib/netstandard2.0/NAudio.Asio.xml",
+        "naudio-icon.png",
+        "naudio.asio.2.2.0.nupkg.sha512",
+        "naudio.asio.nuspec"
+      ]
+    },
+    "NAudio.Core/2.2.0": {
+      "sha512": "6jOWa+ZB04ByuWSSQ1cQnKv6zujX0ZCsSpd/UrCqHyHbUGuVP64X76QTwphudGUJRUBAIsZ9HVMqPaXP6qlpPw==",
+      "type": "package",
+      "path": "naudio.core/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Core.dll",
+        "lib/netstandard2.0/NAudio.Core.xml",
+        "naudio-icon.png",
+        "naudio.core.2.2.0.nupkg.sha512",
+        "naudio.core.nuspec"
+      ]
+    },
+    "NAudio.Lame/2.1.0": {
+      "sha512": "Y+FtVgvjT+bNpBFqDiAKcFGelix1UavpX66vLymzWalXOGvY+MsoLNKL6aNGA0INjvBxeI3qd1LlD+bg7Nv2Ww==",
+      "type": "package",
+      "path": "naudio.lame/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/NAudio.Lame.targets",
+        "build/libmp3lame.32.dll",
+        "build/libmp3lame.64.dll",
+        "lib/netstandard2.0/NAudio.Lame.dll",
+        "lib/netstandard2.0/NAudio.Lame.pdb",
+        "naudio.lame.2.1.0.nupkg.sha512",
+        "naudio.lame.nuspec"
+      ]
+    },
+    "NAudio.Midi/2.2.0": {
+      "sha512": "+SO7cw3mrH2k5TQxZdt6FvmW7OnwvzFwPbjXGpD2lqnuTfN3Xr13nwqfX9DDcmT7/P+qJy+mqrAZwaN0EuDbrA==",
+      "type": "package",
+      "path": "naudio.midi/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Midi.dll",
+        "lib/netstandard2.0/NAudio.Midi.xml",
+        "naudio-icon.png",
+        "naudio.midi.2.2.0.nupkg.sha512",
+        "naudio.midi.nuspec"
+      ]
+    },
+    "NAudio.Wasapi/22.0.0": {
+      "sha512": "wDPj5OVl54TGnRbdPJQa6VuAShe3rYDgCLFn4jrqHzpGEQ54FCzmjDsS/KLbb0M6mln83K+kQ1vQzY7SQGDEEg==",
+      "type": "package",
+      "path": "naudio.wasapi/22.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Wasapi.dll",
+        "lib/netstandard2.0/NAudio.Wasapi.xml",
+        "lib/uap10.0.18362/NAudio.Wasapi.dll",
+        "lib/uap10.0.18362/NAudio.Wasapi.pri",
+        "lib/uap10.0.18362/NAudio.Wasapi.xml",
+        "naudio-icon.png",
+        "naudio.wasapi.22.0.0.nupkg.sha512",
+        "naudio.wasapi.nuspec"
+      ]
+    },
+    "NAudio.WinMM/2.2.0": {
+      "sha512": "MnszU7s34+OVParz72w4dNhYFjjk3Cu/nI9mqHOuS2nvxDT9XvqmY64mSwDrxY3CQReUWKHj3sBkY//VCMgfGg==",
+      "type": "package",
+      "path": "naudio.winmm/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.WinMM.dll",
+        "lib/netstandard2.0/NAudio.WinMM.xml",
+        "naudio-icon.png",
+        "naudio.winmm.2.2.0.nupkg.sha512",
+        "naudio.winmm.nuspec"
+      ]
+    },
     "SharpCompress/0.30.1": {
       "sha512": "XqD4TpfyYGa7QTPzaGlMVbcecKnXy4YmYLDWrU+JIj7IuRNl7DH2END+Ll7ekWIY8o3dAMWLFDE1xdhfIWD1nw==",
       "type": "package",
@@ -760,6 +1066,65 @@
         "version.txt"
       ]
     },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "sha512": "LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encoding.CodePages.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Text.Encoding.CodePages.dll",
+        "lib/net462/System.Text.Encoding.CodePages.xml",
+        "lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.7.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "YoutubeExplode/6.3.2": {
+      "sha512": "HV2e4mls8vmOA6tQAkzNFc2vEqCwVxlfMB2deMGTnfSgatHwXXCXXMah++H2RSSDDljUCqyR8z4QJVVpMRKG8w==",
+      "type": "package",
+      "path": "youtubeexplode/6.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "favicon.png",
+        "lib/net461/YoutubeExplode.dll",
+        "lib/net461/YoutubeExplode.xml",
+        "lib/net5.0/YoutubeExplode.dll",
+        "lib/net5.0/YoutubeExplode.xml",
+        "lib/netcoreapp3.1/YoutubeExplode.dll",
+        "lib/netcoreapp3.1/YoutubeExplode.xml",
+        "lib/netstandard2.0/YoutubeExplode.dll",
+        "lib/netstandard2.0/YoutubeExplode.xml",
+        "lib/netstandard2.1/YoutubeExplode.dll",
+        "lib/netstandard2.1/YoutubeExplode.xml",
+        "youtubeexplode.6.3.2.nupkg.sha512",
+        "youtubeexplode.nuspec"
+      ]
+    },
     "ZstdSharp.Port/0.6.2": {
       "sha512": "jPao/LdUNLUz8rn3H1D8W7wQbZsRZM0iayvWI4xGejJg3XJHT56gcmYdgmCGPdJF1UEBqUjucCRrFB+4HbJsbw==",
       "type": "package",
@@ -780,7 +1145,10 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "MongoDB.Driver >= 2.21.0"
+      "MongoDB.Driver >= 2.21.0",
+      "NAudio >= 2.2.0",
+      "NAudio.Lame >= 2.1.0",
+      "YoutubeExplode >= 6.3.2"
     ]
   },
   "packageFolders": {
@@ -831,6 +1199,18 @@
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.21.0, )"
+          },
+          "NAudio": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "NAudio.Lame": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "YoutubeExplode": {
+            "target": "Package",
+            "version": "[6.3.2, )"
           }
         },
         "imports": [
